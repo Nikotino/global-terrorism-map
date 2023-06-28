@@ -15,11 +15,7 @@ var path = d3.geoPath()
 
 // Load in GeoJSON data
 
-<<<<<<< HEAD
 d3.json("data/world-110m2.json")
-=======
-d3.json("https://cors-anywhere.herokuapp.com/https://drive.google.com/file/d/1ljCoX1TdBbHzP1nxJpOpbW5M37SRO9Pt/view?usp=drive_link")
->>>>>>> 4bd3129003d89fa642b45bfb4c9a6c777581bd16
     .then(function(data) {
         // Bind the data and create one path per GeoJSON feature
         map_svg.append("g").attr("id", "path").selectAll("path")

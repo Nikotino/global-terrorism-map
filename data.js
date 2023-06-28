@@ -13,11 +13,7 @@ var bubble_labels;
 
 
 
-<<<<<<< HEAD
 d3.csv("data/gtd_short.csv").then(function(data) {
-=======
-d3.csv("https://cors-anywhere.herokuapp.com/https://drive.google.com/file/d/1CWj2mC7D16NhgV4pJemwXQ-ekfg76mSN/export?format=csv").then(function(data) {
->>>>>>> 4bd3129003d89fa642b45bfb4c9a6c777581bd16
     // Parse strings to numbers
     data.forEach(function(d) {
         d.latitude = +d.latitude;
