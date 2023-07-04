@@ -1,6 +1,6 @@
 ### global-terrorism-map
 This is the visualization of Terrorist Attacks globally during the period of 1970-2020
-https://nikotino.github.io/global-terrorism-map/index.html
+https://veroscience.github.io/global-terrorism-map/index.html
 
 The Data Source: https://www.start.umd.edu/gtd/
 
