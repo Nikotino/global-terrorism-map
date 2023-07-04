@@ -14,6 +14,7 @@ var bubble_labels;
 
 
 d3.csv("data/gtd_short.csv").then(function(data) {
+    
     // Parse strings to numbers
     data.forEach(function(d) {
         d.latitude = +d.latitude;
@@ -237,6 +238,7 @@ bubble_labels=map_svg.append("g").attr("id", "labels").selectAll('.bubble_label'
 .attr('text-anchor', 'middle')  // center the text on the 'x' coordinate
 .attr('dominant-baseline', 'middle');  // center the text on the 'y' coordinate
 
+d3.select('#loadingSpinner').style('display', 'none')
 }
 
 
